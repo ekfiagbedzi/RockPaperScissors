@@ -9,23 +9,21 @@ def get_computer_choice():
     return(computer_choice)
 
 def get_user_choice():
-    user_choice = input("Please enter you choice; one of Rock, Paper or Scisssors:\n")
+    user_choice = OPTIONS_DICT[input("Please enter you choice; one of Rock, Paper or Scisssors:\n")]
     return(user_choice)
 
 
 
 def get_winner(user_choice, computer_choice):
-    if OPTIONS_DICT[user_choice] > computer_choice:
-        print("Congratulations!!! You Won!!!")
+    if user_choice > computer_choice:
+        return("Congratulations!!! You Won!!!")
 
-    elif OPTIONS_DICT[user_choice] < computer_choice:
-        print("Sorry, You lost the game!")
+    elif user_choice < computer_choice:
+        return("Sorry, You lost the game!")
 
     else:
-        print("It is a draw game!")
+        return("It is a draw game!")
 
 
 def play():
-    get_winner(get_user_choice(), get_computer_choice())
-
-play()
+    print(get_winner(get_user_choice(), get_computer_choice()))
