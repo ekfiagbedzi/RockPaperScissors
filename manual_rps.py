@@ -27,3 +27,5 @@ def get_winner(user_choice, computer_choice):
 
 def play():
     print(get_winner(get_user_choice(), get_computer_choice()))
+
+play()

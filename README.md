@@ -21,12 +21,16 @@ Numpy: For numerical computing and image manipulation
 The code for the game has been wrapped up in a funciton called RockPaperScissors
 
 ### How to Play
-To play this game, enter command `python run.py` in the terminal.
-This will open your webcam. Press `Q` to start the game. Countdown starts.
-Once countdown ends, the current frame at the end of the countdown will be used
-to predict the option you chose.
-Your choice will be compared to that of that of the CPU and the winner determined
+#### Manual Game
+To play the manual version of this game, enter command `python manual_rps.py in the terminal.
+This will present a prompt; Press `Q` to start the game. Please enter you choice; one of Rock, Paper or Scisssors:
+Once you enter your choice, your choice will be compared to that of that of the CPU and the winner determined
 by the classical rules of Rock Paper Scissors.
+
+
+To play the webcam version of this game, enter command `python camera_rps.py in the terminal.
+This will present a prompt. Press `Q` to play the each round. Countdown starts. Your choice will be compared to that of that of the CPU and the winner determined
+by the classical rules of Rock Paper Scissors. Once the computer or the player gets to three wins, the game ends and the winner declared
 
 End
 
