@@ -26,6 +26,14 @@ Defined functions; `get_user_choice`, `get_computer_choice` and `get_winner`
 ![code-snapshot](https://user-images.githubusercontent.com/71975468/166817267-6d7092ec-7da1-47fb-989b-0d7264375ea2.png)
 
 ### Webcam Game Code
+Used `cv2.putText` to display various messages such as scores, how to play the game and winners on the webcam display
+![code-snapshot](https://user-images.githubusercontent.com/71975468/166819149-d5fa72b6-e4d5-4cb1-90bb-985cd0bcf5ca.png)
+
+Setup and displayed a countdown timer on the webcam
+![code-snapshot](https://user-images.githubusercontent.com/71975468/166819378-f1a99098-fbc1-4eab-a8ff-61cd8c3ab830.png)
+
+Made predictions using the frame immediately after countdown ends
+![code-snapshot](https://user-images.githubusercontent.com/71975468/166819554-67a8d60c-60cb-4ba6-aa37-3452541aeec8.png)
 
 
 ### How to Play
