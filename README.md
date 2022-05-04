@@ -20,6 +20,14 @@ Numpy: For numerical computing and image manipulation
 
 The code for the game has been wrapped up in a funciton called RockPaperScissors
 
+
+### Manual Game Code
+Defined functions; `get_user_choice`, `get_computer_choice` and `get_winner`
+![code-snapshot](https://user-images.githubusercontent.com/71975468/166817267-6d7092ec-7da1-47fb-989b-0d7264375ea2.png)
+
+### Webcam Game Code
+
+
 ### How to Play
 #### Manual Game
 To play the manual version of this game, enter command `python manual_rps.py in the terminal.
