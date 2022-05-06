@@ -12,10 +12,10 @@ The model will be used to predict the option the player opted to play using a ca
 
 ### Environment setup and libraries installed
 I first created a virtual environment using python's `venv`, and installed the following libraries using `pip` containing libraries;
-Tensorflow: For Machine Learning
-Keras: For Machine Learning
-OpenCV-python: For computer vision
-Numpy: For numerical computing and image manipulation
+`Tensorflow`: For Machine Learning
+`Keras`: For Machine Learning
+`OpenCV-python`: For computer vision
+`Numpy`: For numerical computing and image manipulation
 
 
 The code for the game has been wrapped up in a funciton called RockPaperScissors
