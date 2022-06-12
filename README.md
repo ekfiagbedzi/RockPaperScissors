@@ -43,10 +43,10 @@ This will present a prompt; Press `Q` to start the game. Please enter you choice
 Once you enter your choice, your choice will be compared to that of that of the CPU and the winner determined
 by the classical rules of Rock Paper Scissors.
 
-
+#### Webcam Game
 To play the webcam version of this game, enter command `python camera_rps.py` in the terminal.
 This will present a prompt. Press `Q` to play the each round. Countdown starts. Your choice will be compared to that of that of the CPU and the winner determined
-by the classical rules of Rock Paper Scissors. Once the computer or the player gets to three wins, the game ends and the winner declared
+by the classical rules of Rock Paper Scissors. Once either the computer or the player gets to three wins, the game ends and the winner declared
 To reset game at any point, press `A`.
 
 End
