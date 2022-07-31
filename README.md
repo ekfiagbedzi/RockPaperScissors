@@ -1,4 +1,4 @@
-# RockPaperScissorsGame
+# RockPaperScissors
 
 ## Rock Paper Scissors Game built with Computer Vision
 
